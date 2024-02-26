@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+html, body{
+    /*background-color: #14162D;*/
+    background-image: url(imagens/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed ;
+    min-height: 100%;
+}
+
+#logo{
+    max-width: 450px;
+    max-height: 319px;
+    margin: auto;
+}
+
+header{
+    display: flex;
+}
+
+#produtos{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.setor1, .setor2, .setor3, .setor4{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    border: 4px solid #835627;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transition: 0.8s;
+}
+
+.setor2{
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+}
+
+.setor1:hover,
+.setor2:hover,
+.setor3:hover,
+.setor4:hover{
+    transform: scale(1.3);
+}
+
+.setor1{
+    background-image: url(imagens/jk-construcoes-logo.jpeg);
+}
+
+.setor2{
+    background-image: url(imagens/premoldados.jpg);
+}
+
+.setor3{
+    background-image: url(imagens/casamaerrio2.png);
+}
+
+.setor4{
+    background-image: url();
+}
